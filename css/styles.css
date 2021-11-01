@@ -1,0 +1,133 @@
+/*FUENTES*/
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Zen+Dots&display=swap");
+/*UNIVERSAL*/
+* {
+  font-family: 'Koulen', cursive;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+}
+/*NAVBAR*/
+.menu__de__navegacion {
+    position: sticky;
+    top: 0px;
+    font-size: 16px;
+    background-color: black;
+    text-shadow: black 2px 2px 2px;
+    color: white;
+    padding: 10px;
+    backdrop-filter: blur(4px);
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  
+}
+ul li {
+list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/*boton flotante wpp*/
+.boton__flotante__wpp {
+  position: fixed;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+/*INDEX*/
+.contenedor__index {
+  background-image: url(../imagenes/fondo-de-index.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.slogan__index  {
+  padding: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flame__league {
+  font-size: 30px;
+}
+/*FORMATO*/
+.contenedor__formato {
+  background-image:linear-gradient(orange, black);
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.titulos__formato {
+  border: solid 2px white;
+  background-color:black;
+}
+.contenedor__formato p{
+  text-align:justify;
+}
+/*FONDITO DEL MEDIO*/
+.fondito__del__medio {
+  background-image: url(../imagenes/fondito-sticky.jpg);
+  width: 100%;
+  height: 30vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/*REQUISITOS*/
+.contenedor__requisitos {
+  background-image:linear-gradient(orange, black);
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 10px;
+}
+/*INSCRIPCION*/
+.contenedor__inscripcion {
+  background-image: url(../imagenes/inscripcion.png);
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/*CONTATCO*/
+.main__Contacto {
+  background-image: url(../imagenes/hyper-beast.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/*FOOTER*/
+.footer {
+  background-color: black;
+}
+.contenido__footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/*MEDIA QUERIES*/
