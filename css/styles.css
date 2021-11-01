@@ -102,6 +102,12 @@ a {
   background-attachment: fixed;
   height: 100vh;
   padding: 10px;
+  font-size: 20px;
+}
+.titulos__requisitos {
+  text-align: center;
+  border: solid 2px white;
+  background-color:black;
 }
 /*INSCRIPCION*/
 .contenedor__inscripcion {
@@ -112,14 +118,83 @@ a {
   background-position: center;
   background-attachment: fixed;
 }
+.titulo__inscripcion {
+  font-size: 150px;
+  text-align: center;
+  text-shadow: black 3px 3px 3px;
+}
+.titulo__segundo {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: black 3px 3px 3px;
+}
+.titulo__tercero {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: black 3px 3px 3px;
+}
+.contenedor__colaboraciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
 /*CONTATCO*/
 .main__Contacto {
-  background-image: url(../imagenes/hyper-beast.jpg);
+  background-image: url("../imagenes/hyper-beast.jpg");
   width: 100%;
   height: 90vh;
   background-size: cover;
-  background-position: center;
+  display: -ms-grid;
+  display: grid;
   background-attachment: fixed;
+}
+.container {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main__Form .form {
+  text-align: left;
+  border: 6px solid rgba(255, 217, 0, 0.474);
+  border-radius: 10px;
+  width: 500px;
+  background: white;
+  overflow: hidden;
+  padding: 42px 55px 45px 55px;
+  -webkit-box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+          box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+}
+.main__Form .form__input {
+  border-width: 0px;
+  border-bottom: 1px solid black;
+  background: transparent;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  outline: 0;
+}
+.main__Form .div__Main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*FOOTER*/
 .footer {
@@ -131,3 +206,1149 @@ a {
   align-items: center;
 }
 /*MEDIA QUERIES*/
+@media(max-width:1360px) {
+/*NAVBAR*/
+.menu__de__navegacion {
+  position: sticky;
+  top: 0px;
+  font-size: 16px;
+  background-color: black;
+  text-shadow: black 2px 2px 2px;
+  color: white;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+}
+ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+}
+ul li {
+list-style-type: none;
+}
+ul li a {
+text-decoration: none;
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+a {
+text-decoration: none;
+color: white;
+}
+/*boton flotante wpp*/
+.boton__flotante__wpp {
+position: fixed;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+/*INDEX*/
+.contenedor__index {
+background-image: url(../imagenes/fondo-de-index.jpg);
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-attachment: fixed;
+}
+.slogan__index  {
+padding: 250px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.flame__league {
+font-size: 30px;
+}
+/*FORMATO*/
+.contenedor__formato {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 100vh;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+}
+.titulos__formato {
+border: solid 2px white;
+background-color:black;
+}
+.contenedor__formato p{
+text-align:justify;
+}
+/*FONDITO DEL MEDIO*/
+.fondito__del__medio {
+background-image: url(../imagenes/fondito-sticky.jpg);
+width: 100%;
+height: 30vh;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+/*REQUISITOS*/
+.contenedor__requisitos {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 100vh;
+padding: 10px;
+font-size: 20px;
+}
+.titulos__requisitos {
+text-align: center;
+border: solid 2px white;
+  background-color:black;
+}
+/*INSCRIPCION*/
+.contenedor__inscripcion {
+background-image: url(../imagenes/inscripcion.png);
+background-attachment: fixed;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.titulo__inscripcion {
+font-size: 150px;
+text-align: center;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__segundo {
+text-align: center;
+font-size: 50px;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__tercero {
+text-align: center;
+font-size: 50px;
+text-shadow: black 3px 3px 3px;
+}
+.contenedor__colaboraciones {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+/*CONTATCO*/
+.main__Contacto {
+background-image: url("../imagenes/hyper-beast.jpg");
+width: 100%;
+height: 90vh;
+background-size: cover;
+display: -ms-grid;
+display: grid;
+background-attachment: fixed;
+}
+.container {
+padding: 30px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.main__Form .form {
+text-align: left;
+border: 6px solid rgba(255, 217, 0, 0.474);
+border-radius: 10px;
+width: 500px;
+background: white;
+overflow: hidden;
+padding: 42px 55px 45px 55px;
+-webkit-box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+        box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+}
+.main__Form .form__input {
+border-width: 0px;
+border-bottom: 1px solid black;
+background: transparent;
+width: 100%;
+padding: 5px;
+margin-bottom: 20px;
+outline: 0;
+}
+.main__Form .div__Main {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+/*FOOTER*/
+.footer {
+background-color: black;
+}
+.contenido__footer {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+}
+@media(max-width:1024px) {
+  /*NAVBAR*/
+.menu__de__navegacion {
+  position: sticky;
+  top: 0px;
+  font-size: 16px;
+  background-color: black;
+  text-shadow: black 2px 2px 2px;
+  color: white;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+}
+ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+}
+ul li {
+list-style-type: none;
+}
+ul li a {
+text-decoration: none;
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+a {
+text-decoration: none;
+color: white;
+}
+/*INDEX*/
+.contenedor__index {
+background-image: url(../imagenes/fondo-de-index.jpg);
+width: auto;
+height: 100vh;
+background-size: cover;
+background-attachment: fixed;
+}
+.slogan__index  {
+padding: 150px;
+width: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.flame__league {
+font-size: 30px;
+}
+/*FORMATO*/
+.contenedor__formato {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 100vh;
+padding: 10px;
+font-size: 15px;
+text-align: center;
+}
+.titulos__formato {
+border: solid 2px white;
+background-color:black;
+}
+.contenedor__formato p{
+text-align:justify;
+}
+/*FONDITO DEL MEDIO*/
+.fondito__del__medio {
+background-image: url(../imagenes/fondito-sticky.jpg);
+width: 100%;
+height: 30vh;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+/*REQUISITOS*/
+.contenedor__requisitos {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 100vh;
+padding: 10px;
+font-size: 15px;
+}
+.titulos__requisitos {
+text-align: center;
+border: solid 2px white;
+  background-color:black;
+}
+/*INSCRIPCION*/
+.contenedor__inscripcion {
+background-image: url(../imagenes/inscripcion.png);
+background-attachment: fixed;
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.titulo__inscripcion {
+font-size: 100px;
+text-align: center;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__segundo {
+text-align: center;
+font-size: 30px;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__tercero {
+text-align: center;
+font-size: 30px;
+text-shadow: black 3px 3px 3px;
+}
+.contenedor__colaboraciones {
+display: grid;
+grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+/*CONTATCO*/
+.main__Contacto {
+background-image: url("../imagenes/hyper-beast.jpg");
+width: 100%;
+height: 90vh;
+background-size: cover;
+display: -ms-grid;
+display: grid;
+background-attachment: fixed;
+}
+.container {
+padding: 30px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.main__Form .form {
+text-align: left;
+border: 6px solid rgba(255, 217, 0, 0.474);
+border-radius: 10px;
+width: 500px;
+background: white;
+overflow: hidden;
+padding: 42px 55px 45px 55px;
+-webkit-box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+        box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+}
+.main__Form .form__input {
+border-width: 0px;
+border-bottom: 1px solid black;
+background: transparent;
+width: 100%;
+padding: 5px;
+margin-bottom: 20px;
+outline: 0;
+}
+.main__Form .div__Main {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+/*FOOTER*/
+.footer {
+background-color: black;
+}
+.contenido__footer {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+}
+@media(max-width:768px) {
+  /*NAVBAR*/
+.menu__de__navegacion {
+  position: sticky;
+  top: 0px;
+  font-size: 16px;
+  background-color: black;
+  text-shadow: black 2px 2px 2px;
+  color: white;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+}
+ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+}
+ul li {
+list-style-type: none;
+}
+ul li a {
+text-decoration: none;
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+a {
+text-decoration: none;
+color: white;
+}
+/*INDEX*/
+.contenedor__index {
+background-image: url(../imagenes/fondo-de-index.jpg);
+width: auto;
+height: 100vh;
+background-size: cover;
+background-attachment: fixed;
+}
+.slogan__index  {
+padding: 60px;
+width: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.flame__league {
+font-size: 20px;
+}
+/*FORMATO*/
+.contenedor__formato {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 100vh;
+padding: 10px;
+font-size: 14px;
+text-align: center;
+}
+.titulos__formato {
+border: solid 2px white;
+background-color:black;
+}
+.contenedor__formato p{
+text-align:justify;
+}
+/*FONDITO DEL MEDIO*/
+.fondito__del__medio {
+background-image: url(../imagenes/fondito-sticky.jpg);
+width: 100%;
+height: 30vh;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+/*REQUISITOS*/
+.contenedor__requisitos {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 100vh;
+padding: 10px;
+font-size: 14px;
+}
+.titulos__requisitos {
+text-align: center;
+border: solid 2px white;
+  background-color:black;
+}
+/*INSCRIPCION*/
+.contenedor__inscripcion {
+background-image: url(../imagenes/inscripcion.png);
+background-attachment: fixed;
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.titulo__inscripcion {
+font-size: 70px;
+text-align: center;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__segundo {
+text-align: center;
+font-size: 25px;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__tercero {
+text-align: center;
+font-size: 25px;
+text-shadow: black 3px 3px 3px;
+}
+.contenedor__colaboraciones {
+display: grid;
+grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+/*CONTATCO*/
+.main__Contacto {
+background-image: url("../imagenes/hyper-beast.jpg");
+width: 100%;
+height: 90vh;
+background-size: cover;
+display: -ms-grid;
+display: grid;
+background-attachment: fixed;
+}
+.container {
+padding: 10px !important;
+display: -webkit-box;
+display: -ms-flexbox;
+display: grid;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.main__Form .form {
+  padding: 2px !important;
+  font-size: 10px !important;
+text-align: center !important;
+border: none !important;
+border-radius: 10px;
+width: 500px;
+height: 550px !important;
+background: none !important;
+overflow: hidden;
+padding: 0px !important;
+-webkit-box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+        box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+}
+.main__Form .form__input {
+border-width: 0px;
+border-bottom: none !important;
+background: white !important;
+
+}
+.main__Form .div__Main {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.form h2 {
+  font-size: 14px !important;
+}
+/*FOOTER*/
+.footer {
+background-color: black;
+}
+.contenido__footer {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+}
+@media(max-width:600px) {
+ /*NAVBAR*/
+.menu__de__navegacion {
+  position: sticky;
+  top: 0px;
+  font-size: 16px;
+  background-color: black;
+  text-shadow: black 2px 2px 2px;
+  color: white;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+}
+ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+}
+ul li {
+list-style-type: none;
+}
+ul li a {
+text-decoration: none;
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+a {
+text-decoration: none;
+color: white;
+}
+/*INDEX*/
+.contenedor__index {
+background-image: url(../imagenes/fondo-de-index.jpg);
+width: auto;
+height: 100vh;
+background-size: cover;
+background-attachment: fixed;
+}
+.slogan__index  {
+padding: 20px !important;
+width: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.flame__league {
+font-size: 20px;
+}
+/*FORMATO*/
+.contenedor__formato {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 100vh;
+padding: 4px !important;
+font-size: 10px !important;
+text-align: center;
+}
+.titulos__formato {
+border: solid 2px white;
+background-color:black;
+}
+.contenedor__formato p{
+text-align:justify;
+}
+/*FONDITO DEL MEDIO*/
+.fondito__del__medio {
+background-image: url(../imagenes/fondito-sticky.jpg);
+width: 100%;
+height: 30vh;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+/*REQUISITOS*/
+.contenedor__requisitos {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 100vh;
+padding: 10px;
+font-size: 10px !important;
+}
+.titulos__requisitos {
+text-align: center;
+border: solid 2px white;
+  background-color:black;
+}
+/*INSCRIPCION*/
+.contenedor__inscripcion {
+background-image: url(../imagenes/inscripcion.png);
+background-attachment: fixed;
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.titulo__inscripcion {
+font-size: 70px;
+text-align: center;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__segundo {
+text-align: center;
+font-size: 25px;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__tercero {
+text-align: center;
+font-size: 25px;
+text-shadow: black 3px 3px 3px;
+}
+.contenedor__colaboraciones {
+  display: none !important;
+display: grid;
+grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+/*CONTATCO*/
+.main__Contacto {
+background-image: url("../imagenes/hyper-beast.jpg");
+width: 100%;
+height: 123vh !important;
+background-size: cover;
+display: -ms-grid;
+display: grid;
+background-attachment: fixed;
+}
+.container {
+padding: 10px !important;
+display: -webkit-box;
+display: -ms-flexbox;
+display: grid;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.main__Form .form {
+  padding: 2px !important;
+  font-size: 10px !important;
+text-align: center !important;
+border: none !important;
+border-radius: 10px;
+width: 500px;
+height: 550px !important;
+background: none !important;
+overflow: hidden;
+padding: 0px !important;
+-webkit-box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+        box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+}
+.main__Form .form__input {
+border-width: 0px;
+border-bottom: none !important;
+background: white !important;
+
+}
+.main__Form .div__Main {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.form h2 {
+  font-size: 14px !important;
+}
+/*FOOTER*/
+.footer {
+background-color: black;
+}
+.contenido__footer {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+}
+@media(max-width:400px) {
+  /*NAVBAR*/
+.menu__de__navegacion {
+  position: sticky;
+  top: 0px;
+  font-size: 16px;
+  background-color: black;
+  text-shadow: black 2px 2px 2px;
+  color: white;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+}
+ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+}
+ul li {
+list-style-type: none;
+}
+ul li a {
+text-decoration: none;
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+a {
+text-decoration: none;
+color: white;
+}
+/*INDEX*/
+.contenedor__index {
+background-image: url(../imagenes/fondo-de-index.jpg);
+width: auto;
+height: 102vh;
+background-size: cover;
+background-attachment: fixed;
+}
+.slogan__index  {
+padding: 20px !important;
+width: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.flame__league {
+font-size: 20px;
+}
+/*FORMATO*/
+.contenedor__formato {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 100vh;
+padding: 4px !important;
+font-size: 8px !important;
+text-align: center;
+}
+.titulos__formato {
+border: solid 2px white;
+background-color:black;
+}
+.contenedor__formato p{
+text-align:justify;
+}
+/*FONDITO DEL MEDIO*/
+.fondito__del__medio {
+background-image: url(../imagenes/fondito-sticky.jpg);
+width: 100%;
+height: 30vh;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+/*REQUISITOS*/
+.contenedor__requisitos {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 102vh;
+padding: 10px;
+font-size: 8px !important;
+}
+.titulos__requisitos {
+text-align: center;
+border: solid 2px white;
+  background-color:black;
+}
+/*INSCRIPCION*/
+.contenedor__inscripcion {
+background-image: url(../imagenes/inscripcion.png);
+background-attachment: fixed;
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.titulo__inscripcion {
+font-size: 70px;
+text-align: center;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__segundo {
+text-align: center;
+font-size: 25px;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__tercero {
+text-align: center;
+font-size: 25px;
+text-shadow: black 3px 3px 3px;
+}
+.contenedor__colaboraciones {
+  display: none !important;
+display: grid;
+grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+/*CONTATCO*/
+.main__Contacto {
+background-image: url("../imagenes/hyper-beast.jpg");
+width: 100%;
+height: 135vh !important;
+background-size: cover;
+display: -ms-grid;
+display: grid;
+background-attachment: fixed;
+}
+.container {
+padding: 10px !important;
+display: -webkit-box;
+display: -ms-flexbox;
+display: grid;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.main__Form .form {
+  padding: 2px !important;
+  font-size: 10px !important;
+text-align: center !important;
+border: none !important;
+border-radius: none !important;
+width: 250px !important;
+height: 550px !important;
+background: none !important;
+overflow: hidden;
+padding: 0px !important;
+box-shadow: none !important;
+}
+.main__Form .form__input {
+border-width: none !important;
+border-bottom: none !important;
+background: white !important;
+
+}
+.main__Form .div__Main {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.form h2 {
+  font-size: 14px !important;
+}
+/*FOOTER*/
+.footer {
+background-color: black;
+}
+.contenido__footer {
+  text-align: center !important;
+display: grid !important;
+grid-template-columns: 1fr !important;
+align-items: center !important;
+justify-items: center !important;
+}
+}
+@media(max-width:360px) {
+   /*NAVBAR*/
+.menu__de__navegacion {
+  position: sticky;
+  top: 0px;
+  font-size: 12px !important;
+  background-color: black;
+  text-shadow: black 2px 2px 2px;
+  color: white;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+}
+ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+}
+ul li {
+list-style-type: none;
+}
+ul li a {
+text-decoration: none;
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+a {
+text-decoration: none;
+color: white;
+}
+/*INDEX*/
+.contenedor__index {
+background-image: url(../imagenes/fondo-de-index.jpg);
+width: auto;
+height: 102vh;
+background-size: cover;
+background-attachment: fixed;
+}
+.slogan__index  {
+padding: 100px !important;
+width: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.flame__league {
+font-size: 20px;
+}
+/*FORMATO*/
+.contenedor__formato {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 80vh !important;
+padding: 4px !important;
+font-size: 8px !important;
+text-align: center;
+}
+.titulos__formato {
+border: solid 2px white;
+background-color:black;
+}
+.contenedor__formato p{
+text-align:justify;
+}
+/*FONDITO DEL MEDIO*/
+.fondito__del__medio {
+background-image: url(../imagenes/fondito-sticky.jpg);
+width: 100%;
+height: 30vh;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+/*REQUISITOS*/
+.contenedor__requisitos {
+background-image:linear-gradient(orange, black);
+background-attachment: fixed;
+height: 80vh !important;
+padding: 10px;
+font-size: 9px !important;
+}
+.titulos__requisitos {
+text-align: center;
+border: solid 2px white;
+  background-color:black;
+}
+/*INSCRIPCION*/
+.contenedor__inscripcion {
+background-image: url(../imagenes/inscripcion.png);
+background-attachment: fixed;
+width: 100%;
+height: 60vh !important;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.titulo__inscripcion {
+font-size: 50px !important;
+text-align: center;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__segundo {
+text-align: center;
+font-size: 25px;
+text-shadow: black 3px 3px 3px;
+}
+.titulo__tercero {
+text-align: center;
+font-size: 25px;
+text-shadow: black 3px 3px 3px;
+}
+.contenedor__colaboraciones {
+  display: none !important;
+display: grid;
+grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+/*CONTATCO*/
+.main__Contacto {
+background-image: url("../imagenes/hyper-beast.jpg");
+width: 100%;
+height: 85vh !important;
+background-size: cover;
+display: -ms-grid;
+display: grid;
+background-attachment: fixed;
+}
+.container {
+padding: 10px !important;
+display: -webkit-box;
+display: -ms-flexbox;
+display: grid;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.main__Form .form {
+  padding: 2px !important;
+  font-size: 10px !important;
+text-align: center !important;
+border: none !important;
+border-radius: none !important;
+width: 250px !important;
+height: 550px !important;
+background: none !important;
+overflow: hidden;
+padding: 0px !important;
+box-shadow: none !important;
+}
+.main__Form .form__input {
+border-width: none !important;
+border-bottom: none !important;
+background: white !important;
+
+}
+.main__Form .div__Main {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+.form h2 {
+  font-size: 14px !important;
+}
+/*FOOTER*/
+.footer {
+background-color: black;
+}
+.contenido__footer {
+  text-align: center !important;
+display: grid !important;
+grid-template-columns: 1fr !important;
+align-items: center !important;
+justify-items: center !important;
+}
+}
