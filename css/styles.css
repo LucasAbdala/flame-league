@@ -1157,6 +1157,18 @@ align-items: center !important;
 justify-items: center !important;
 }
 }
+@media(max-width: 411px){
+.titulo__inscripcion {
+  font-size: 50px !important;
+}
+.titulo__segundo{
+  font-size: 20px !important;
+}
+
+.titulo__tercero{
+  font-size: 20px !important;
+}
+}
 @media(max-width:360px) {
    /*NAVBAR*/
 .menu__de__navegacion {
