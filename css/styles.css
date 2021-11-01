@@ -869,7 +869,7 @@ border: solid 2px white;
 background-image: url(../imagenes/inscripcion.png);
 background-attachment: fixed;
 width: 100%;
-height: 100vh;
+height: 60vh !important;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -924,7 +924,7 @@ display: grid;
 text-align: center !important;
 border: none !important;
 border-radius: 10px;
-width: 500px;
+width: 300px !important;
 height: 550px !important;
 background: none !important;
 overflow: hidden;
@@ -960,9 +960,10 @@ display: flex;
 background-color: black;
 }
 .contenido__footer {
-display: flex;
-justify-content: space-evenly;
+display: grid;
+justify-items: center;
 align-items: center;
+text-align: center;
 }
 }
 @media(max-width:400px) {
