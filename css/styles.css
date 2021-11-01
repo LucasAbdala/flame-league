@@ -1164,10 +1164,68 @@ justify-items: center !important;
 .titulo__segundo{
   font-size: 20px !important;
 }
-
 .titulo__tercero{
   font-size: 20px !important;
 }
+/*CONTATCO*/
+.main__Contacto {
+  background-image: url("../imagenes/hyper-beast.jpg");
+  width: 100%;
+  height: 135vh !important;
+  background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  background-attachment: fixed;
+  }
+  .container {
+  padding: 10px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  }
+  .main__Form .form {
+    padding: 2px !important;
+    font-size: 10px !important;
+  text-align: center !important;
+  border: none !important;
+  border-radius: none !important;
+  width: 250px !important;
+  height: 550px !important;
+  background: none !important;
+  overflow: hidden;
+  padding: 0px !important;
+  box-shadow: none !important;
+  }
+  .main__Form .form__input {
+  border-width: none !important;
+  border-bottom: none !important;
+  background: white !important;
+  
+  }
+  .main__Form .div__Main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  }
+  .form h2 {
+    font-size: 14px !important;
+  }
 }
 @media(max-width:360px) {
    /*NAVBAR*/
