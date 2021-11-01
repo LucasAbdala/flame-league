@@ -740,8 +740,7 @@ height: 550px !important;
 background: none !important;
 overflow: hidden;
 padding: 0px !important;
--webkit-box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
-        box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+box-shadow: none !important;
 }
 .main__Form .form__input {
 border-width: 0px;
@@ -931,8 +930,7 @@ height: 550px !important;
 background: none !important;
 overflow: hidden;
 padding: 0px !important;
--webkit-box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
-        box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+box-shadow: none !important;
 }
 .main__Form .form__input {
 border-width: 0px;
