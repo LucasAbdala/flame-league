@@ -169,8 +169,7 @@ a {
   background: white;
   overflow: hidden;
   padding: 42px 55px 45px 55px;
-  -webkit-box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
-          box-shadow: rgba(255, 217, 0, 0.186) 7px 13px 37px;
+  box-shadow: none !important;
 }
 .main__Form .form__input {
   border-width: 0px;
