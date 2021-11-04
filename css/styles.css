@@ -1420,3 +1420,14 @@ align-items: center !important;
 justify-items: center !important;
 }
 }
+@media(max-width:300px) {
+.contenedor__requisitos {
+  height: 100vh !important;
+}
+.menu__de__navegacion {
+  font-size: 10px !important;
+}
+.flame__league {
+  font-size: 14px !important;
+}
+} 
